@@ -31,7 +31,7 @@
       visibility: hidden;
       padding: 2rem 1.2rem;
       overflow-y: auto;
-      transition: all ease-in-out 0.6s;      
+      transition: all ease-in-out 0.6s;
       -webkit-transition: all ease-in-out 0.6s;
       -moz-transition: all ease-in-out 0.6s;
       -ms-transition: all ease-in-out 0.6s;
@@ -39,7 +39,7 @@
       background-color: #181b26;
    }
    .navigation-nav.toggle-menu-mobile {
-      height: 60vh;    
+      height: 60vh;
       opacity: 1;
       visibility: visible;
       right: 0vw;
@@ -57,7 +57,7 @@
       padding: 0 0.7rem;
       font-weight: 600;
       line-height: 2.6rem;
-      border-radius: 0.3rem;      
+      border-radius: 0.3rem;
       -webkit-border-radius: 0.3rem;
       -moz-border-radius: 0.3rem;
       -ms-border-radius: 0.3rem;
@@ -83,9 +83,7 @@
       top: 3.4rem;
       background-color: #131627;
    }
-   .navigation-ul li .full-menu-secundary.sub-full-menu {
-      display: none;
-   }
+
    .navigation-ul .full-menu-secundary .close-full-menu {
       display: flex;
       position: absolute;
@@ -108,7 +106,7 @@
       background-color: #ea1c5320;
    }
    .navigation-ul .full-menu {
-      height: 80vh; 
+      height: 80vh;
    }
    .navigation-ul .full-menu-cards {
       justify-content: flex-start;
@@ -120,21 +118,21 @@
       flex: 50vw;
       max-width: 47vw;
       background-color: #181b26;
-   }  
+   }
    .navigation-ul .menu-galery-img {
       flex-basis: 50%;
       max-width: 50%;
-   } 
-   
+   }
+
 }
 
 @media (max-width: 27em) {
-   .navigation-ul .full-menu-cards {            
+   .navigation-ul .full-menu-cards {
       margin: 0 auto;
    }
    .navigation-ul .full-menu__items {
       max-width: 100%;
-   }   
+   }
    .navigation-ul .item-card p {
       font-size: 1rem;
    }
